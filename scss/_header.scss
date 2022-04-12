@@ -8,7 +8,8 @@
   }
   &__logolink {
     text-decoration: none;
-    margin: 13px 0 37px 0;
+    margin: 13px 0 36px 0;
+    max-height: 40px;
   }
   &__logo {
     margin: 0;
@@ -45,6 +46,9 @@
   }
   &__item + &__item + &__item + &__item {
     padding-right: 25px;
+  }
+  &__item {
+    max-height: 22px;
   }
   &__link {
     font-family: $main-font;

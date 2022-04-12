@@ -35,7 +35,8 @@ body {
 
 .header__logolink {
   text-decoration: none;
-  margin: 13px 0 37px 0;
+  margin: 13px 0 36px 0;
+  max-height: 40px;
 }
 
 .header__logo {
@@ -82,6 +83,10 @@ body {
   padding-right: 25px;
 }
 
+.header__item {
+  max-height: 22px;
+}
+
 .header__link {
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -112,4 +117,95 @@ body {
   content: url(../images/Vector.svg);
   right: 49px;
   max-height: 20px;
+}
+
+.stone {
+  background-image: url(../images/back-img.png);
+  position: relative;
+}
+
+.stone::after {
+  position: absolute;
+  content: url(../images/back-img1.png);
+  top: 127px;
+  right: 33px;
+  bottom: 136px;
+  left: 623px;
+}
+
+.stone__inner {
+  padding: 0 24px 0 24px;
+}
+
+.stone__title {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #d77474;
+  padding: 192px 998px 12px 0;
+}
+
+.stone__strong {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+  color: #000000;
+  padding: 0 730px 0 0;
+  position: relative;
+}
+
+.stone__strong::after {
+  content: url(../images/&.svg);
+  position: absolute;
+  left: 422px;
+  bottom: 5px;
+}
+
+.stone__strong1 {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+  color: #000000;
+  padding: 0 730px 14px 0;
+}
+
+.stone__text {
+  margin: 0;
+  font-family: "Libre Franklin", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #6c6c6c;
+  padding: 0 640px 70px 0;
+}
+
+.stone__link {
+  padding: 0 951px 118px 0;
+}
+
+.stone__a {
+  padding: 19px 31px 21px 40px;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 22px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #ac1313;
+  border-radius: 0px;
 }
