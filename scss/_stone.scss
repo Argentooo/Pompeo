@@ -27,7 +27,7 @@
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #d77474;
-    padding: 192px 998px 12px 0;
+    padding: 192px 0 12px 0;
   }
   &__strong {
     margin: 0;
@@ -37,7 +37,7 @@
     font-size: 48px;
     line-height: 58px;
     color: $dark;
-    padding: 0 730px 0 0;
+    padding: 0 700px 0 0;
     position: relative;
     &::after {
       content: url(../images/&.svg);
@@ -54,7 +54,7 @@
     font-size: 48px;
     line-height: 58px;
     color: $dark;
-    padding: 0 730px 14px 0;
+    padding: 0 700px 14px 0;
   }
   &__text {
     margin: 0;
