@@ -1,0 +1,122 @@
+@import "vars";
+
+.featur {
+  margin-top: 341px;
+  position: relative;
+  &::after {
+    position: absolute;
+    content: url(../images/FeaturedProducts.svg);
+    z-index: -1;
+    right: 49px;
+    left: 1357px;
+    top: 142px;
+    bottom: 317px;
+  }
+  &__inner {
+    padding: 0 14px;
+  }
+  &__top {
+    display: grid;
+    grid-template-columns: 510px 576px;
+    gap: 86px;
+    grid-template-rows: 224px;
+  }
+  &__left {
+    position: relative;
+    &::before {
+      content: url(../images/Vasa2.png);
+      position: absolute;
+      left: 135px;
+      right: 125px;
+      bottom: -141px;
+      top: -144px;
+    }
+  }
+  &__right1 {
+    position: relative;
+    &::before {
+      position: absolute;
+      content: url(../images/Vasa.png);
+      bottom: -71px;
+      left: 75px;
+      top: -98px;
+    }
+  }
+  &__f5 {
+    padding: 0 0 4px 10px;
+  }
+  &__title {
+    margin: 0;
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 34px;
+    color: $dark;
+    padding: 20px 0 23px 0;
+  }
+  &__text {
+    margin: 0;
+    padding: 0 150px 27px 0;
+    font-family: $secondary-font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #6c6c6c;
+  }
+  &__item {
+    padding: 0 0 0 0;
+  }
+  &__link {
+    text-decoration: none;
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: $dark;
+  }
+  &__bottom {
+    margin-top: 220px;
+    display: grid;
+    grid-template-columns: 482px 576px;
+    grid-template-rows: 248px;
+    gap: 114px;
+  }
+  &__title1 {
+    margin: 0;
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 34px;
+    color: $dark;
+    padding: 20px 261px 23px 10px;
+  }
+  &__text1 {
+    margin: 0;
+    font-family: $secondary-font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #6c6c6c;
+    padding: 0 50px 27px 10px;
+  }
+  &__item1 {
+    padding: 0 350px 0 10px;
+  }
+  &__link1 {
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: $dark;
+    text-decoration: none;
+  }
+  &__f5-1 {
+    padding: 0 76px 28px 0;
+  }
+}

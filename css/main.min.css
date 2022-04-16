@@ -150,7 +150,7 @@ body {
   letter-spacing: 2px;
   text-transform: uppercase;
   color: #d77474;
-  padding: 192px 998px 12px 0;
+  padding: 192px 0 12px 0;
 }
 
 .stone__strong {
@@ -161,7 +161,7 @@ body {
   font-size: 48px;
   line-height: 58px;
   color: #000000;
-  padding: 0 730px 0 0;
+  padding: 0 700px 0 0;
   position: relative;
 }
 
@@ -180,7 +180,7 @@ body {
   font-size: 48px;
   line-height: 58px;
   color: #000000;
-  padding: 0 730px 14px 0;
+  padding: 0 700px 14px 0;
 }
 
 .stone__text {
@@ -353,7 +353,149 @@ body {
   color: #6c6c6c;
   padding: 0 8px 31px 0;
 }
+.featur {
+  margin-top: 341px;
+  position: relative;
+}
 
+.featur::after {
+  position: absolute;
+  content: url(../images/FeaturedProducts.svg);
+  z-index: -1;
+  right: 49px;
+  left: 1357px;
+  top: 142px;
+  bottom: 317px;
+}
+
+.featur__inner {
+  padding: 0 14px;
+}
+
+.featur__top {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 510px 576px;
+      grid-template-columns: 510px 576px;
+  gap: 86px;
+  -ms-grid-rows: 224px;
+      grid-template-rows: 224px;
+}
+
+.featur__left {
+  position: relative;
+}
+
+.featur__left::before {
+  content: url(../images/Vasa2.png);
+  position: absolute;
+  left: 135px;
+  right: 125px;
+  bottom: -141px;
+  top: -144px;
+}
+
+.featur__right1 {
+  position: relative;
+}
+
+.featur__right1::before {
+  position: absolute;
+  content: url(../images/Vasa.png);
+  bottom: -71px;
+  left: 75px;
+  top: -98px;
+}
+
+.featur__f5 {
+  padding: 0 0 4px 10px;
+}
+
+.featur__title {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 34px;
+  color: #000000;
+  padding: 20px 0 23px 0;
+}
+
+.featur__text {
+  margin: 0;
+  padding: 0 150px 27px 0;
+  font-family: "Libre Franklin", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #6c6c6c;
+}
+
+.featur__item {
+  padding: 0 0 0 0;
+}
+
+.featur__link {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.featur__bottom {
+  margin-top: 220px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 482px 576px;
+      grid-template-columns: 482px 576px;
+  -ms-grid-rows: 248px;
+      grid-template-rows: 248px;
+  gap: 114px;
+}
+
+.featur__title1 {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 34px;
+  color: #000000;
+  padding: 20px 261px 23px 10px;
+}
+
+.featur__text1 {
+  margin: 0;
+  font-family: "Libre Franklin", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #6c6c6c;
+  padding: 0 50px 27px 10px;
+}
+
+.featur__item1 {
+  padding: 0 350px 0 10px;
+}
+
+.featur__link1 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+  text-decoration: none;
+}
+
+.featur__f5-1 {
+  padding: 0 76px 28px 0;
 .collection__inner {
   padding: 7.563rem 0 7.474rem;
 }
